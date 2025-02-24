@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        REPO_URL = 'https://github.com/iamkishore0/maven_project_cycle_shopping.git'
+        REPO_URL = 'https://github.com/allahasif48/maven_project_cycle_shopping.git'
         BRANCH = 'main'
         SONARQUBE_URL = 'http://your-sonarqube-server' // Update this
         SONARQUBE_TOKEN = credentials('sonarqube-token')
